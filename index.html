@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,29 @@
     <title>Card Slide | Mbn</title>
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <!-- Css link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
     <section class="swiper mySwiper">
 
         <div class="swiper-wrapper">
-        
+
             <div class="card swiper-slide">
                 <div class="card_image">
                     <img src="./images/user1.jpg" alt="card image">
                 </div>
-        
+
                 <div class="card_content">
                     <div class="card_title">Web Designer</div>
                     <div class="card_name">Vanessa Martinez</div>
-                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus reiciendis.</p>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum
+                        voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus
+                        reiciendis.</p>
                     <button class="card_btn">View More</button>
                 </div>
             </div>
@@ -35,11 +39,13 @@
                 <div class="card_image">
                     <img src="./images/user2.jpg" alt="card image">
                 </div>
-        
+
                 <div class="card_content">
                     <div class="card_title">UI Designer</div>
                     <div class="card_name">Sara Deow</div>
-                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus reiciendis.</p>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum
+                        voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus
+                        reiciendis.</p>
                     <button class="card_btn">View More</button>
                 </div>
             </div>
@@ -48,11 +54,13 @@
                 <div class="card_image">
                     <img src="./images/user3.jpg" alt="card image">
                 </div>
-        
+
                 <div class="card_content">
                     <div class="card_title">Web Developer</div>
                     <div class="card_name">Mike Marow</div>
-                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus reiciendis.</p>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum
+                        voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus
+                        reiciendis.</p>
                     <button class="card_btn">View More</button>
                 </div>
             </div>
@@ -61,40 +69,57 @@
                 <div class="card_image">
                     <img src="./images/user4.jpg" alt="card image">
                 </div>
-        
+
                 <div class="card_content">
                     <div class="card_title">Marketer</div>
                     <div class="card_name">Luara Smith</div>
-                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus reiciendis.</p>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum
+                        voluptatem velit iure ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus
+                        reiciendis.</p>
                     <button class="card_btn">View More</button>
                 </div>
             </div>
-   
+
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="./images/user4.jpg" alt="card image">
+                </div>
+
+                <div class="card_content">
+                    <div class="card_title">Marketer</div>
+                    <div class="card_name">Luara Smith</div>
+                    <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rerum
+                        voluptatem velit iure
+                        ea tenetur animi quo reprehenderit quia suscipit adipisci doloribus reiciendis.</p>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
         </div>
     </section>
 
- <!-- Swiper JS -->
- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
- <!-- Initialize Swiper -->
- <script>
-   var swiper = new Swiper(".mySwiper", {
-     effect: "coverflow",
-     grabCursor: true,
-     centeredSlides: true,
-     slidesPerView: "auto",
-     coverflowEffect: {
-       rotate: 0,
-       stretch: 0,
-       depth: 300,
-       modifier: 1,
-       slideShadows: false,
-     },
-     pagination: {
-       el: ".swiper-pagination",
-     },
-   });
- </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 
 </body>
+
 </html>
